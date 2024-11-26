@@ -24,7 +24,9 @@ const Navbar = () => {
 
   return (
     <nav>
+      
       <div className="logo"></div>
+      
       <div className={show ? "navLinks showmenu" : "navLinks"}>
         <div className="links">
           {/* Map over the navbarLinks array */}
